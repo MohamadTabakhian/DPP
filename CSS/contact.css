@@ -242,7 +242,7 @@ header {
 
 /* MediaQuery */
 
-@media (max-width:800px) {
+@media (max-width:940px) {
     .nav a img {
         width: 30%;
     }
@@ -356,6 +356,7 @@ header {
         /* top: 50px; */
         left: -100%;
         transition: 2s;
+        z-index: 1000;
     }
 
     nav ul.slide {
@@ -393,43 +394,57 @@ header {
     }
 
     /* Main */
-    .section1 img {
-        width: 100%;
-        border-radius: 0;
+    .contact-left,
+    .contact-right {
+        flex: 100%;
     }
 
-    .section2 .about-dpp {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    header h1 {
+        font-size: 25px;
     }
 
-    .about-dpp h1 {
+    form input {
+        width: 60%;
         padding: 0;
-        font-size: 20px;
-        margin: 10px 0;
     }
-
-    .about-dpp p {
-        margin: 0;
-        padding: 0;
-        font-size: 12px;
+    
+    form h3 {
+        padding: 0 10px;
     }
 
     .button {
-        margin: 10px 0;
-        width: 100%;
+        width: 70%;
     }
 
-    .button button {
-        padding: 10px 40px;
-        font-size: 10px;
+    .feedback-input {
+        width: 95%;
+    }
+    
+
+    .contact-address span {
+        font-size: 17px;
     }
 
-    .flex-item-right,
-    .flex-item-left , 
-    .flex-item-midleft, 
-    .flex-item-midright {
+    .contact-address p {
+        font-size: 15px;
+    }
+
+    .contact-phone img {
+        width: 5%;
+    }
+
+    .contact-phone a {
+        font-size: 15px;
+    }
+
+    .item-left , 
+    .item-main , 
+    .item-right{
         flex: 100%;
+    }
+
+    .item-left , .item-main {
+        border-right: none;
+        border-bottom: 2px solid #202225;
     }
 }

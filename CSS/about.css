@@ -494,7 +494,7 @@
 /* MediaQuery */
 
 
-@media (max-width:800px) {
+@media (max-width:920px) {
     .nav a img {
         width: 30%;
     }
@@ -739,5 +739,157 @@
         display: block;
         margin-bottom: 5px;
 
+    }
+
+    /* Main */
+    .naz {
+        width: 100%;
+    }
+
+    .naz .logo-naz img {
+        width: 40%;
+    }
+
+    .img-about img {
+        width: 100%;
+        background-size: contain;
+    }
+
+    .flex-item-left img {
+        width: 100%;
+    }
+
+    .about-dpp h3 {
+        font-size: 15px;
+        padding: 20px 10px;
+        margin: 0;
+
+    }
+
+    .about-dpp p {
+        font-size: 13px;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .icon-cert {
+        margin: 20px 0;
+    }
+
+    .icon-cert img {
+        width: 20%;
+    }
+
+    .flex-item-right, .flex-item-left {
+        flex: 100%;
+    }
+
+    .flex-item-right img {
+        width: 100%;
+    }
+
+    .first-logo img {
+        width: 40%;
+    }
+
+    .year-left, 
+    .year-midleft , 
+    .year-midright , 
+    .year-right {
+        flex: 100%;
+    }
+    .flex-item-right,
+    .flex-item-left , 
+    .flex-item-midleft, 
+    .flex-item-midright {
+        flex: 100%;
+    }
+
+      .flex-emp-right,
+      .flex-emp-left , 
+      .flex-emp-midleft, 
+      .flex-emp-midright {
+          flex: 100%;
+          padding: 40px 0;
+    }
+
+    .flex-item-midleft .first-logo img ,
+    .flex-item-midright .first-logo img, 
+    .flex-item-right .first-logo img {
+        width: 20%;
+    }
+
+    .our-cert {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-cert h1 {
+        font-size: 24px;
+    }
+
+    .our-cert button a{
+        padding: 10px 10px;
+        font-size: 13px;
+    } 
+
+    .fac-right, 
+    .fac-left {
+        flex: 100%;
+    }
+
+    .persian-container {
+        width: 100%;
+    }
+
+    .logo-naz {
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo-naz img {
+        width: 70%;
+    }
+
+    .title-naz h3 {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .about-naz p {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin: 0;
+    }
+
+    .fac-left h1 {
+        font-size: 20px;
+    }
+
+    .fac-left p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .fac-right img {
+        width: 100%;
+
+    }
+
+    .qu {
+        height: 150px;
+    }
+
+
+    /* Footer */      
+    .item-left , 
+    .item-main , 
+    .item-right{
+        flex: 100%;
+    }
+
+    .item-left , .item-main {
+        border-right: none;
+        border-bottom: 2px solid #202225;
     }
 }

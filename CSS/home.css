@@ -366,7 +366,7 @@
 
 /* MediaQuery */
 
-@media (max-width:800px) {
+@media (max-width:940px) {
     .nav a img {
         width: 30%;
     }
@@ -558,6 +558,10 @@
         border-radius: 0;
     }
 
+    .section2 {
+        padding: 20px 0;
+    }
+
     .section2 .about-dpp {
         flex-direction: column;
         justify-content: center;
@@ -573,7 +577,7 @@
     .about-dpp p {
         margin: 0;
         padding: 0;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .button {
@@ -592,4 +596,40 @@
     .flex-item-midright {
         flex: 100%;
     }
+
+      .flex-emp-right,
+      .flex-emp-left , 
+      .flex-emp-midleft, 
+      .flex-emp-midright {
+          flex: 100%;
+          padding: 40px 0;
+    }
+
+    .our-cert {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-cert h1 {
+        font-size: 24px;
+    }
+
+    .our-cert button a{
+        padding: 10px 10px;
+        font-size: 13px;
+    } 
+
+
+        /* Footer */
+        
+        .item-left , 
+        .item-main , 
+        .item-right{
+            flex: 100%;
+        }
+
+        .item-left , .item-main {
+            border-right: none;
+            border-bottom: 2px solid #202225;
+        }
 }

@@ -868,9 +868,9 @@
 
 /* MediaQuery */
 
-@media (max-width:800px) {
+@media (max-width:940px) {
     .nav a img {
-        width: 30%;
+        width: 24%;
     }
 
      .nav ul {
@@ -1397,6 +1397,7 @@
     }
 
     /* Main */
+
     /* Section1 */
 
     .represent {
@@ -1566,6 +1567,7 @@
 
     .information a button {
         font-size: 14px;
+        width: 100%;
     }
 
         /* Green */
@@ -1595,7 +1597,9 @@
     
         .information1 a button {
             font-size: 14px;
+            width: 100%;
         }
+
         /* Purple */
         .information2 {
             transform: translateY(0);
@@ -1623,6 +1627,7 @@
     
         .information2 a button {
             font-size: 14px;
+            width: 100%;
         }
         /* Red */
         .information3 {
@@ -1651,6 +1656,7 @@
     
         .information3 a button {
             font-size: 14px;
+            width: 100%;
         }
         /* Yellow */
         .information4 {
@@ -1679,6 +1685,7 @@
     
         .information4 a button {
             font-size: 14px;
+            width: 100%;
         }
         /* Orange */
         .information5 {
@@ -1707,6 +1714,7 @@
     
         .information5 a button {
             font-size: 14px;
+            width: 100%;
         }
         /* Purple Haze */
         .information6 {
@@ -1735,6 +1743,7 @@
     
         .information6 a button {
             font-size: 14px;
+            width: 100%;
         }
         /* Blue Light */
         .information7 {
@@ -1763,19 +1772,50 @@
     
         .information7 a button {
             font-size: 14px;
+            width: 100%;
         }
 
-
     /* Footer */
-        
-    .item-left , 
-    .item-main , 
-    .item-right{
-        flex: 100%;
+    .table11 .tt4,
+    .table9 .tt4,
+    .table4 .tt4 {
+        width: 100%;
+        transform: translateX(0);
     }
 
-    .item-left , .item-main {
-        border-right: none;
-        border-bottom: 2px solid #202225;
-    }
+        .footer {
+            z-index: 1000;
+        }
+        
+        .item-left , 
+        .item-main , 
+        .item-right{
+            flex: 100%;
+        }
+
+        .item-left , .item-main {
+            border-right: none;
+            border-bottom: 2px solid #202225;
+        }
+
+        /* Scroll Top */
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            z-index: 99;
+            font-size: 12px;
+            border: none;
+            outline: none;
+            background-color: #53a4eb;
+            color: #fafafa;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 4px;
+          }
+          
+          #myBtn:hover {
+            background-color: #555;
+          }
 }

@@ -246,7 +246,7 @@
 
 /* MediaQuery */
 
-@media (max-width:800px) {
+@media (max-width:940px) {
     .nav a img {
         width: 30%;
     }
@@ -425,5 +425,16 @@
     .flex-item-midleft, 
     .flex-item-midright {
         flex: 100%;
+    }
+
+    .item-left , 
+    .item-main , 
+    .item-right{
+        flex: 100%;
+    }
+
+    .item-left , .item-main {
+        border-right: none;
+        border-bottom: 2px solid #202225;
     }
 }
