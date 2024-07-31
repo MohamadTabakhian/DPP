@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -18,8 +17,8 @@
 
 .nav a img {
     width: 8%;
-    padding-left: 20px;
-    margin-top: 10px;
+    padding-left: 30px;
+    margin-top: 15px;
 }
 
 .nav ul {
@@ -41,13 +40,13 @@
 .nav ul li a {
     color: #3d434b;
     padding: 15px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Archivo', sans-serif;
     font-size: 18px;
 }
 
 .nav ul li a:hover {
-    color: #53a4eb;
-    border-bottom: 2px solid #53a4eb;
+    color: rgb(1, 119, 191);
+    border-bottom: 2px solid rgb(1, 119, 191);
 }
 
 /* Image-Products */
@@ -77,6 +76,277 @@
 }
 
 
+/* Name Products */
+
+.name-product {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.row-name a {
+    margin: 0 20px;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.row-name a:hover {
+    color: rgb(1, 119, 191);
+}
+
+
+/* Products */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px 30px;
+    padding: 0 100px;
+  }
+  
+  .flex-item-one {
+    padding: 10px;
+    flex: 20%;
+    margin: 0 5px;
+  }
+  
+  .flex-item-one a img {
+    width: 100%;
+  }
+
+  .flex-item-one h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(1, 119, 191);
+  }
+
+  .flex-item-two {
+    padding: 10px;
+    flex: 20%;
+    margin: 0 5px;
+  }
+
+  .flex-item-two a img {
+    width: 95.9%;
+  }
+
+  .flex-item-two h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(105, 189, 68);
+  }
+  
+  .flex-item-three {
+    padding: 10px;
+    flex: 20%;
+    margin: 0 5px;
+  }
+
+  .flex-item-three a img {
+    width: 97%;
+  }
+
+  .flex-item-three h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(100, 64, 152);
+  }
+  
+  .flex-item-four {
+    padding: 10px;
+    flex: 20%;
+    margin: 0 5px;
+  } 
+
+  .flex-item-four a img {
+    width: 95.9%;
+  }
+
+  .flex-item-four h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(239, 63, 74);
+  }
+    
+  .flex-item-five {
+    padding: 10px;
+    flex: 20%;
+    margin: 0 5px;
+  }
+  
+  .flex-item-five a img {
+    width: 100%;
+  }
+
+  .flex-item-five h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(255, 194, 15);
+  }
+
+  .flex-item-six {
+    padding: 10px;
+    flex: 20%;
+    margin: 0 5px;
+  }
+
+  .flex-item-six a img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .flex-item-six h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+  
+  .flex-item-seven {
+    padding: 10px;
+    flex: 20%;
+    margin: 0 5px;
+  }
+
+  .flex-item-seven a img {
+    width: 100%;
+    height: 240px;
+  }
+
+  .flex-item-seven h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(163, 36, 143);
+  }
+  
+  .flex-item-eight {
+    padding: 10px;
+    flex: 20%;
+    margin: 0 5px;
+  } 
+
+  .flex-item-eight a img {
+    width: 100%;
+    height: 245px;
+  }
+
+  .flex-item-eight h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(69, 192, 174);
+  }
+
+  .flex-item-one img:hover,
+  .flex-item-two img:hover,
+  .flex-item-three img:hover,
+  .flex-item-four img:hover,
+  .flex-item-five img:hover,
+  .flex-item-six img:hover,
+  .flex-item-seven img:hover,
+  .flex-item-eight img:hover {
+    opacity: 0.8;
+  }
+
+  /* Footer */
+
+.footer {
+    width: 100%;
+    background-color: #3d434b;
+    color: #fff;
+}
+
+.footer h4 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item-left , 
+.item-main , 
+.item-right{
+    flex: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.item-left , 
+.item-main , 
+.item-right span {
+    font-family: 'Poppins', sans-serif;
+    color: #fafafa;
+    font-size: 15px;
+}
+
+.item-left {
+    border-right: 2px solid #202225;
+}
+
+.item-main {
+    border-right: 2px solid #202225;
+}
+
+.icon-footer {
+    margin-top: 30px;
+}
+
+
+.icon-footer a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.icon-footer a:hover {
+    color: #53a4eb;
+}
+
+.social-media {
+    font-size: 30px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #fafafa;
+}
+
+.social-media a:hover {
+    color: #53a4eb;
+    transform: translateY(-5px);
+}
+
+.reserved {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #202225;
+    padding: 20px 0;
+}
+
+.reserved span {
+    font-size: 12px;
+}
+
+.final {
+    background-color: #202225;
+}
 
 
 
@@ -84,7 +354,7 @@
 
 @media (max-width:940px) {
     .nav a img {
-        width: 24%;
+        width: 20%;
     }
 
      .nav ul {
@@ -92,7 +362,7 @@
         width: 100%;
         left: 0;
         height: 100vh;
-        background-color: #53a4eb;
+        background-color: rgb(1, 119, 191);
         text-align: center;
         padding: 0;
         /* top: 50px; */
@@ -131,8 +401,18 @@
         background-color: black;
         display: block;
         margin-bottom: 5px;
-
     }
+
+    /* Main */
+
+    /* ==== Image Product ===== */
+
+    /* ==== Name Product ==== */
+
+    /* ==== Product ===== */
+    .flex-item-one, .flex-item-two , .flex-item-three , .flex-item-four , .flex-item-five , .flex-item-six , .flex-item-seven , .flex-item-eight {
+        flex: 100%;
+      }
 
 }
 
@@ -146,7 +426,7 @@
         width: 100%;
         left: 0;
         height: 100vh;
-        background-color: #53a4eb;
+        background-color: rgb(1, 119, 191);
         text-align: center;
         padding: 0;
         /* top: 50px; */
