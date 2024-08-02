@@ -57,11 +57,12 @@
 }
 
 .image-product .image-background {
-    background-image: url(/Image/Product/Specialized-Coloring-Bottle.jpeg);
+    background-image: url(/Image/Product/Measures.jpeg);
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .image-background h1 {
@@ -72,7 +73,7 @@
     text-align: left;
     font-size: 40px;
     color: #000;
-    padding: 20px 50px;
+    padding: 50px 50px;
     font-family: 'Archivo', sans-serif;
 }
 
@@ -111,89 +112,274 @@
   .flex-item-one {
     padding: 10px;
     flex: 20%;
-    margin: 0 5px;
   }
   
   .flex-item-one a img {
-    width: 80%;
+    width: 100%;
   }
 
   .flex-item-one h3 {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
     margin: 20px 0;
-    color: rgb(1, 119, 191);
+    color: rgb(243, 101, 35);
   }
 
   .flex-item-two {
     padding: 10px;
     flex: 20%;
-    margin: 0 5px;
   }
 
   .flex-item-two a img {
-    width: 80%;
-    height: 280px;
+    width: 100%;
   }
 
   .flex-item-two h3 {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
     margin: 20px 0;
-    color: rgb(1, 119, 191);
+    color: rgb(243, 101, 35);
   }
   
   .flex-item-three {
     padding: 10px;
     flex: 20%;
-    margin: 0 5px;
   }
 
   .flex-item-three a img {
-    width: 80%;
-    height: 280px;  
+    width: 100%;
   }
 
   .flex-item-three h3 {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
     margin: 20px 0;
-    color: rgb(1, 119, 191);
+    color: rgb(243, 101, 35);
   }
   
   .flex-item-four {
     padding: 10px;
     flex: 20%;
-    margin: 0 5px;
   } 
 
   .flex-item-four a img {
-    width: 50%;
-    height: 270px;
+    width: 100%;
   }
 
   .flex-item-four h3 {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
     margin: 20px 0;
-    color: rgb(1, 119, 191);
+    color: rgb(243, 101, 35);
   }
     
   .flex-item-five {
     padding: 10px;
     flex: 20%;
-    margin: 0 5px;
   }
   
   .flex-item-five a img {
-    width: 50%;
+    width: 100%;
   }
 
   .flex-item-five h3 {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
     margin: 20px 0;
-    color: rgb(1, 119, 191);
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-six {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-six a img {
+    width: 100%;
+  }
+
+  .flex-item-six h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-seven {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-seven a img {
+    width: 100%;
+  }
+
+  .flex-item-seven h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+
+  .flex-item-eight {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-eight a img {
+    width: 100%;
+  }
+
+  .flex-item-eight h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-nine {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-nine a img {
+    width: 100%;
+  }
+
+  .flex-item-nine h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-ten {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-ten a img {
+    width: 100%;
+  }
+
+  .flex-item-ten h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-eleven {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-eleven a img {
+    width: 100%;
+  }
+
+  .flex-item-eleven h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-twelve {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-twelve a img {
+    width: 100%;
+  }
+
+  .flex-item-twelve h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-thirteen {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-thirteen a img {
+    width: 100%;
+  }
+
+  .flex-item-thirteen h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-fourteen {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-fourteen a img {
+    width: 100%;
+  }
+
+  .flex-item-fourteen h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-fifteen {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-fifteen a img {
+    width: 80%;
+  }
+
+  .flex-item-fifteen h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-sixteen {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-sixteen a img {
+    width: 80%;
+  }
+
+  .flex-item-sixteen h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
+  }
+
+  .flex-item-seventeen {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-seventeen a img {
+    width: 80%;
+  }
+
+  .flex-item-seventeen h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 20px 0;
+    color: rgb(243, 101, 35);
   }
 
 
@@ -201,7 +387,20 @@
   .flex-item-two img:hover,
   .flex-item-three img:hover,
   .flex-item-four img:hover,
-  .flex-item-five img:hover {
+  .flex-item-five img:hover,
+  .flex-item-six img:hover,
+  .flex-item-seven img:hover,
+  .flex-item-eight img:hover,
+  .flex-item-nine img:hover,
+  .flex-item-ten img:hover,
+  .flex-item-eleven img:hover,
+  .flex-item-twelve img:hover,
+  .flex-item-thirteen img:hover,
+  .flex-item-fourteen img:hover,
+  .flex-item-fifteen img:hover,
+  .flex-item-sixteen img:hover,
+  .flex-item-seventeen img:hover
+   {
     opacity: 0.8;
   }
 
