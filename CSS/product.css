@@ -108,13 +108,14 @@
   }
   
   .flex-item-one {
-    padding: 10px;
+    padding: 20px;
     flex: 20%;
     margin: 0 5px;
   }
   
   .flex-item-one a img {
     width: 100%;
+    height: 100%;
   }
 
   .flex-item-one h3 {
@@ -125,13 +126,14 @@
   }
 
   .flex-item-two {
-    padding: 10px;
+    padding: 20px;
     flex: 20%;
     margin: 0 5px;
   }
 
   .flex-item-two a img {
     width: 95.9%;
+    height: 100%;
   }
 
   .flex-item-two h3 {
@@ -142,13 +144,14 @@
   }
   
   .flex-item-three {
-    padding: 10px;
+    padding: 20px;
     flex: 20%;
     margin: 0 5px;
   }
 
   .flex-item-three a img {
     width: 97%;
+    height: 100%;
   }
 
   .flex-item-three h3 {
@@ -159,13 +162,14 @@
   }
   
   .flex-item-four {
-    padding: 10px;
+    padding: 20px;
     flex: 20%;
     margin: 0 5px;
   } 
 
   .flex-item-four a img {
     width: 95.9%;
+    height: 100%;
   }
 
   .flex-item-four h3 {
@@ -176,13 +180,14 @@
   }
     
   .flex-item-five {
-    padding: 10px;
+    padding: 20px;
     flex: 20%;
     margin: 0 5px;
   }
   
   .flex-item-five a img {
     width: 100%;
+    height: 100%;
   }
 
   .flex-item-five h3 {
@@ -193,14 +198,14 @@
   }
 
   .flex-item-six {
-    padding: 10px;
+    padding: 20px;
     flex: 20%;
     margin: 0 5px;
   }
 
   .flex-item-six a img {
     width: 100%;
-    height: 250px;
+    height: 100%;
   }
 
   .flex-item-six h3 {
@@ -211,14 +216,14 @@
   }
   
   .flex-item-seven {
-    padding: 10px;
+    padding: 20px;
     flex: 20%;
     margin: 0 5px;
   }
 
   .flex-item-seven a img {
     width: 100%;
-    height: 240px;
+    height: 100%;
   }
 
   .flex-item-seven h3 {
@@ -229,14 +234,14 @@
   }
   
   .flex-item-eight {
-    padding: 10px;
+    padding: 20px;
     flex: 20%;
     margin: 0 5px;
   } 
 
   .flex-item-eight a img {
     width: 100%;
-    height: 245px;
+    height: 100%;
   }
 
   .flex-item-eight h3 {
