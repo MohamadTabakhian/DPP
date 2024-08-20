@@ -49,7 +49,6 @@
     border-bottom: 2px solid rgb(1, 119, 191);
 }
 
-/* Sidebar */
 
 
 /* Image-Products */
@@ -75,7 +74,7 @@
     align-items: left;
     text-align: left;
     font-size: 40px;
-    color: #000;
+    color: rgb(69, 192, 174);
     padding: 50px 50px;
     font-family: 'Archivo', sans-serif;
 }
@@ -127,9 +126,9 @@
     } */
 
 .sidebar a, .dropdown-btn {
-    padding: 25px 20px;
+    padding: 18px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
     color: #000;
     display: block;
     border: none;
@@ -150,9 +149,12 @@
 /* Add an active class to the active dropdown button */
 .active {
     background-color: transparent;
-    color: #000;
 }
 
+.active .fa-caret-right {
+    transform: rotate(90deg);
+    font-size: 15px;
+}
 
 /* = Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content = */
 .dropdown-container {
@@ -163,11 +165,110 @@
 
 
 /* = Optional: Style the caret down icon = */
-.fa-caret-down {
-    float: right;
-    padding-right: 10px;
+.fa-caret-right {
+   float: center;
+   margin-left: 10px;
 }
-  
+
+/* Mobile Menu */
+
+.dropdown-mobile {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: 'Archivo', sans-serif;
+}
+
+.select {
+    background: rgb(1, 119, 191);
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    /* border-radius: 20px; */
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.select:hover {
+    background: #3AA6B9;
+}
+
+
+
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+    transform: translateY(-15px);
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.menu {
+    padding: 0.2em 0.5em;
+    background: rgb(1, 119, 191);
+    border: none;
+    color: #fff;
+    position: absolute;
+    top: 2.5em;
+    left: 50%;
+    width: 100%;
+    /* transform: translateX(-50%); */
+    text-align: center;
+    opacity: 0;
+    display: flex;
+    transition: 0.2s;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Archivo', sans-serif;
+}
+
+.menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    /* cursor: pointer; */
+}
+
+
+.menu a {
+    color: #fff;
+    width: 100%;
+    padding: 12px 0;
+    text-align: left;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+.menu li:hover {
+    background: rgb(1, 119, 191);
+}
+
+.active {
+    background: #2324;
+}
+
+.menu-open {
+    display: flex;
+    opacity: 1;
+    width: 100%;
+}
 
 
 /* Product */
@@ -212,8 +313,9 @@
 .flex-container p {
     font-family: 'Archivo', sans-serif;
     font-size: 14px;
-    color: rgb(69, 192, 174);
+    color: #111;
     padding: 5px 30px;
+    font-weight: bold;
 }
 
 
@@ -330,6 +432,7 @@
         /* top: 50px; */
         left: -100%;
         transition: 2s;
+        z-index: 1000;
     }
 
     nav ul.slide {
@@ -368,13 +471,59 @@
     /* Main */
 
     /* ==== Image Product ===== */
+    .image-product {
+        width: 100%;
+    }
 
-    /* ==== Name Product ==== */
+    .image-product .image-background {
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .image-product h1 {
+        font-size: 20px;
+        margin: 0;
+        padding: 100px 20px;
+    }
+    /* ==== Name Product For Mobile  ==== */
+    .dropdown-mobile {
+        display: flex;
+        width: 100%;
+    }
+
+    .menu {
+        transform: translateX(-50%);
+    }
+
 
     /* ==== Product ===== */
-    .flex-item-one, .flex-item-two , .flex-item-three , .flex-item-four , .flex-item-five  {
+    .sidebar {
+        display: none;
+    }
+
+    .product {
         flex: 100%;
-      }
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: left;
+        margin: 30px 0;
+        padding: 0;
+    }
+
+    .product .flex-container .flex-item-three img {
+        width: 100%;
+        display: flex;
+        height: 100%;
+        transform: translateX(30px);
+    }
+
+    .product .flex-container .flex-item-three p {
+        transform: translateX(30px);
+    } 
 
 }
 

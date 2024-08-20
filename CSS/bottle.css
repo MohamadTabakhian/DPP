@@ -49,6 +49,9 @@
     border-bottom: 2px solid rgb(1, 119, 191);
 }
 
+/* Sidebar */
+
+
 /* Image-Products */
 
 .image-product {
@@ -59,9 +62,10 @@
 .image-product .image-background {
     background-image: url(/Image/Product/Specialized-Coloring-Bottle.jpeg);
     width: 100%;
-    height: 600px;
+    height: 730px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .image-background h1 {
@@ -71,8 +75,8 @@
     align-items: left;
     text-align: left;
     font-size: 40px;
-    color: #000;
-    padding: 20px 50px;
+    color: rgb(1, 119, 191);
+    padding: 50px 50px;
     font-family: 'Archivo', sans-serif;
 }
 
@@ -88,7 +92,7 @@
 }
 
 .row-name a {
-    margin: 0 20px;
+    margin: 20px 20px;
     color: #000;
     font-size: 18px;
     font-family: 'Archivo', sans-serif;
@@ -99,111 +103,145 @@
 }
 
 
-/* Products */
-.flex-container {
+/* Sidebar */
+
+.flex-main {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
-    margin: 50px 30px;
-    padding: 0 100px;
-  }
-  
-  .flex-item-one {
-    padding: 10px;
-    flex: 20%;
-    margin: 0 5px;
-  }
-  
-  .flex-item-one a img {
-    width: 80%;
-  }
+    margin-top: 30px;
+    width: 100%;
+}
 
-  .flex-item-one h3 {
+.sidebar {
+    flex: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+    /* .sidebar a {
+        padding: 20px 20px;
+        color: #000;
+        font-family: 'Archivo', sans-serif;
+        font-size: 18px;
+        border-right: 2px solid rgb(69, 192, 174);
+    } */
+
+.sidebar a, .dropdown-btn {
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
     font-family: 'Archivo', sans-serif;
-    font-weight: 500;
-    margin: 20px 0;
+    font-weight: 400;
+}
+
+/* On mouse-over */
+.sidebar a:hover, .dropdown-btn:hover {
     color: rgb(1, 119, 191);
-  }
+}
 
-  .flex-item-two {
-    padding: 10px;
-    flex: 20%;
-    margin: 0 5px;
-  }
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: transparent;
+    color: #000;
+}
 
-  .flex-item-two a img {
-    width: 80%;
-    height: 280px;
-  }
+.active .fa-caret-right {
+    transform: rotate(90deg);
+    font-size: 15px;
+}
 
-  .flex-item-two h3 {
-    font-family: 'Archivo', sans-serif;
-    font-weight: 500;
-    margin: 20px 0;
-    color: rgb(1, 119, 191);
-  }
+
+/* = Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content = */
+.dropdown-container {
+    display: none;
+    background-color: transparent;
+    padding-left: 8px;
+}
+
+.dropdown-container a {
+    margin: 0px 0;
+}
+
+
+/* = Optional: Style the caret down icon = */
+.fa-caret-right {
+    float: center;
+    margin-left: 10px;
+}
   
-  .flex-item-three {
-    padding: 10px;
-    flex: 20%;
-    margin: 0 5px;
-  }
 
-  .flex-item-three a img {
-    width: 80%;
-    height: 280px;  
-  }
 
-  .flex-item-three h3 {
-    font-family: 'Archivo', sans-serif;
-    font-weight: 500;
+/* Product */
+.product {
+    flex: 80%;
+}
+
+.product .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     margin: 20px 0;
-    color: rgb(1, 119, 191);
-  }
-  
-  .flex-item-four {
-    padding: 10px;
+}
+
+.flex-container .flex-item-one {
     flex: 20%;
-    margin: 0 5px;
-  } 
+}
 
-  .flex-item-four a img {
-    width: 50%;
-    height: 270px;
-  }
-
-  .flex-item-four h3 {
-    font-family: 'Archivo', sans-serif;
-    font-weight: 500;
-    margin: 20px 0;
-    color: rgb(1, 119, 191);
-  }
-    
-  .flex-item-five {
-    padding: 10px;
+.flex-container .flex-item-two {
     flex: 20%;
-    margin: 0 5px;
-  }
-  
-  .flex-item-five a img {
-    width: 50%;
-  }
+}
 
-  .flex-item-five h3 {
-    font-family: 'Archivo', sans-serif;
-    font-weight: 500;
-    margin: 20px 0;
-    color: rgb(1, 119, 191);
-  }
+.flex-container .flex-item-three {
+  flex: 20%;
+}
 
+.flex-container .flex-item-four {
+  flex: 20%;
+}
 
-  .flex-item-one img:hover,
-  .flex-item-two img:hover,
-  .flex-item-three img:hover,
-  .flex-item-four img:hover,
-  .flex-item-five img:hover {
+.product .flex-container .flex-item-one img,
+.product .flex-container .flex-item-two img,
+.product .flex-container .flex-item-three img
+ {
+    width: 100%;
+    height: 100%;
+}
+
+.product .flex-container .flex-item-one p,
+.product .flex-container .flex-item-two p,
+.product .flex-container .flex-item-three p
+ {
+    font-size: 14px;
+    text-align: left;
+    margin: 3px 0;
+}
+
+.product .flex-container img {
+    width: 25%;
+    margin: 0 30px;
+}
+
+.flex-container img:hover {
     opacity: 0.8;
-  }
+}
+
+.flex-container p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    color: rgb(1, 119, 191);
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+
 
   /* Footer */
 
