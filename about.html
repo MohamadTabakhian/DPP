@@ -32,26 +32,49 @@
     <link rel="stylesheet" href="./CSS/about.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Title -->
     <title>Darou Plastic Pars</title>
 </head>
 <body>
-<!-- Header -->
-    <nav class="nav">
-        <a href=""><img src="./Logo/photo1718635483.png" alt=""></a>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="product.html">Products</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+
+    
+    <!-- Header -->
+
+    <nav>
+        <div class="nav-bar">
+            <i class="bx bx-menu sidebarOpen"></i>
+            <img src="./Logo/DPP-Logo.png" alt="">
+
+            <div class="menu-header">
+                <div class="logo-toggle">
+                    <img src="./Logo/DPP-Logo.png" alt="">
+                    <i class="bx bx-x siderbarClose"></i>
+                </div>
 
 
-        <div class="hamburger">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="darklight-searchBox">
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class="bx bx-x cancel"></i>
+                        <i class="bx bx-search search"></i>
+                    </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </div>
+            </div>
         </div>
+    
     </nav>
 <!-- Main -->
     <!-- Image Section -->
@@ -97,39 +120,49 @@
                 </div>
             </div>
         </section>
-
-        <!-- Certificate Section -->
-        <section class="section3">
-            <div class="our-cert">
-                <h1>Our Certificate</h1>
-            </div>
-            <div class="flex-container">
-                <div class="flex-item-midleft">
-                    <div class="first-logo">
-                        <img src="./Logo/sedex-logo.png" alt="">
-                        <h6>What is Sedex certificate?</h6>
-                        <p>Sedex is an innovative and effective supply chain management solution. Sedex is a not for profit membership organization dedicated to driving improvements in ethical and responsible business practices in global supply chains.</p>
+            <!-- Years -->
+            <section class="section4">
+                <div class="history">
+                    <span>History Of Company : </span>
+                </div>
+                <div class="year-container">
+                    <div class="year-left">
+                        <img src="./Logo/History-Timeline-(1975).png" alt="">
+                        <p>Established in Tehran, Iran. 
+                            <br>
+                            manufacturing plastic pieces.
+                        </p>
+                    </div>
+                    <div class="year-midleft">
+                        <img src="./Logo/History-Timeline-(1980).png" alt="">
+                        <p>
+                            Facilities and equipment changes
+                            for pharmaceutical and food Plastic
+                            Packaging Pieces.
+                        </p>
+                    </div>
+                    <div class="year-midright">
+                        <img src="./Logo/History-Timeline-(2001).png" alt="">
+                        <p>
+                            Company’s name changes to Darou Plastic Pars PJSC.
+                        </p>
+                    </div>
+                    <div class="year-right">
+                        <img src="./Logo/History-Timeline-(2020).png" alt="">
+                        <p>
+                            Over 200 employees,
+                            <br>
+                            80 production lines,
+                            <br>
+                            Over 200 types of products
+                            <br>
+                            20.000m² production facility
+                            <br>
+                            Supplies the 90% of Iranian market
+                        </p>
                     </div>
                 </div>
-                <div class="flex-item-midright">
-                    <div class="first-logo">
-                        <img src="./Logo/iso.png" alt="">
-                        <h6>ISO 9001</h6>
-                        <p>“ISO 9001 Certified” means an organization has met the requirements in ISO9001. It defines an ISO 9000 Quality Management System (QMS). ISO 9001:2008 is focused on meeting customer expectations and delivering customer satisfaction so you must pay attention to the customer..</p>
-                    </div>
-                </div>
-                <div class="flex-item-right">
-                    <div class="first-logo">
-                        <img src="./Logo//GMP.png" alt="">
-                        <h6>GMP (Good Manufacturing Practice)</h6>
-                        <p>A GMP is a system for ensuring that products are consistently produced and controlled according to quality standards. It is designed to minimize the risks involved in any pharmaceutical production that cannot be eliminated through testing the final product.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="button-certi">
-                <button><a href="./certificate.html">Read More</a></button>
-            </div>
-        </section> 
+             </section> 
 
          <!-- Section5 -->
           <section class="section5">
@@ -195,84 +228,42 @@
                 </div>
             </div>
           </section>
-                <!-- Years -->
-          <section class="section4">
-            <div class="history">
-                <span>History Of Company : </span>
+
+                 <!-- Certificate Section -->
+        <section class="section3">
+            <div class="our-cert">
+                <h1>Our Certificate</h1>
             </div>
-            <div class="year-container">
-                <div class="year-left">
-                    <div class="current">
-                        <span>1975</span>
-                    </div>
-                    <div class="color">
-                        <span></span>
-                    </div>
-                    <div class="introduce">
-                        <p>Established in Tehran, Iran.
-                            manufacturing plastic pieces.
-                        </p>
+            <div class="flex-container">
+                <div class="flex-item-midleft">
+                    <div class="first-logo">
+                        <img src="./Logo/sedex-logo.png" alt="">
+                        <h6>What is Sedex certificate?</h6>
+                        <p>Sedex is an innovative and effective supply chain management solution. Sedex is a not for profit membership organization dedicated to driving improvements in ethical and responsible business practices in global supply chains.</p>
                     </div>
                 </div>
-                <div class="year-midleft">
-                    <div class="current">
-                        <span>1980</span>
-                    </div>
-                    <div class="color">
-                        <span></span>
-                    </div>
-                    <div class="introduce">
-                        <p>
-                            Facilities and equipment changes
-                            for pharmaceutical and food Plastic
-                            Packaging Pieces.
-                        </p>
+                <div class="flex-item-midright">
+                    <div class="first-logo">
+                        <img src="./Logo/iso.png" alt="">
+                        <h6>ISO 9001</h6>
+                        <p>“ISO 9001 Certified” means an organization has met the requirements in ISO9001. It defines an ISO 9000 Quality Management System (QMS). ISO 9001:2008 is focused on meeting customer expectations and delivering customer satisfaction so you must pay attention to the customer..</p>
                     </div>
                 </div>
-                <div class="year-midright">
-                    <div class="current">
-                        <span>2001</span>
-                    </div>
-                    <div class="color">
-                        <span></span>
-                    </div>
-                    <div class="introduce">
-                        <p>
-                            Company’s name changes to Darou
-                                Plastic Pars PJSC.
-                        </p>
-                    </div>
-                </div>
-                <div class="year-right">
-                    <div class="current">
-                        <span>2020</span>
-                    </div>
-                    <div class="color">
-                        <span></span>
-                    </div>
-                    <div class="introduce">
-                        <p>
-                            1. Over 200 employees,
-                            <br>
-                            2. 80 production lines,
-                            <br>
-                            3. Over 200 types of products
-                            <br>
-                            4. 20.000m² production facility
-                            <br>
-                            5. Supplies the 90% of Iranian market
-                        </p>
+                <div class="flex-item-right">
+                    <div class="first-logo">
+                        <img src="./Logo//GMP.png" alt="">
+                        <h6>GMP (Good Manufacturing Practice)</h6>
+                        <p>A GMP is a system for ensuring that products are consistently produced and controlled according to quality standards. It is designed to minimize the risks involved in any pharmaceutical production that cannot be eliminated through testing the final product.</p>
                     </div>
                 </div>
             </div>
-         </section> 
+            <div class="button-certi">
+                <button><a href="./certificate.html">Read More</a></button>
+            </div>
+        </section> 
 
 <!-- Footer -->
-
 <footer class="footer">
-    <div class="final">
-    <h4>Ways To Connect Us :</h4>
-    </div>
     <div class="footer-container">
         <div class="item-left">
             <span>
@@ -301,23 +292,35 @@
             </div>
         </div>
         <div class="item-right">
-            <div class="social-media">
+            <!-- <div class="social-media">
                 <a href="" class="fa fa-facebook"></a>
                 <a href="" class="fa fa-twitter"></a>
                 <a href="" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-google"></a>
-            </div>
+            </div> -->
+            <span>
+                <h4> Factory in Greece: </h4> Gr. Lampraki 16, Glyfada, Athens
+             </span>
+             <div class="icon-footer">
+                <img src="./Logo/telephone.png" alt="">
+                 <a href="tel to : +30 211 411 7333">+30 211 411 7333</a>
+             </div>
+             <div class="icon-footer">
+                 <img src="./Logo/gmail.png" alt="">
+                 <a href="mail to : info@naz.gr">info@naz.gr</a>
+             </div>
         </div>
     </div>
     <!-- Reserved -->
      <div class="reserved">
-        <span>
-            Copyright 2024 Mohamad Tabakhian, All Right Reserved 
-        </span>
+            <div class="social-media">
+                <a href="" class="fa fa-twitter"></a>
+                <a href="" class="fa fa-instagram"></a>
+            </div>
      </div>
 </footer>
 
     <!-- Javascript -->
-    <script src="./Javascript/navbar.js"></script>
+    <script src="./Javascript/search-button.js"></script>
 </body>
 </html>
