@@ -17,6 +17,7 @@ nav {
   width: 100%;
   font-family: 'Archivo', sans-serif;
   z-index: 100;
+  max-width: 100%;
 }
 
 nav .nav-bar .sidebarOpen {
