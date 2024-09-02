@@ -60,9 +60,9 @@ nav .nav-bar {
 }
 
 .nav-bar .nav-links li {
-    margin: 0 10px;
+    margin: 0 2ch;
     list-style: none;
-    transform: translateX(400px);
+    transform: translateX(250px);
 }
 
 .nav-bar .nav-links li a:hover {
