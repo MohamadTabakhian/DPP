@@ -57,7 +57,7 @@
     .nav-bar .nav-links li {
         margin: 0 10px;
         list-style: none;
-        transform: translateX(400px);
+        transform: translateX(200px);
     }
     
     .nav-bar .nav-links li a:hover {
