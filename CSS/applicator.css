@@ -371,6 +371,10 @@ nav .nav-bar {
     font-weight: bold;
 }
 
+.flex-container a p:hover {
+    color: rgb(255, 194, 15);
+}
+
 
 
   /* Footer */

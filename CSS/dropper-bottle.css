@@ -173,7 +173,9 @@
     
 
 /* Sidebar */
-
+.flex-container a p:hover {
+    color: rgb(1, 119, 191);
+}
 
 /* Image-Products */
 

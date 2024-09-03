@@ -233,6 +233,10 @@ nav .nav-bar {
 
 /* Sidebar */
 
+.flex-container a p:hover {
+    color: rgb(69, 192, 174);
+}
+
 .flex-main {
     display: flex;
     flex-wrap: wrap;

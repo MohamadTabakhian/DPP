@@ -378,6 +378,10 @@
 }
 
 
+.flex-container a p:hover {
+    color: rgb(100, 64, 152);
+}
+
 
   /* Footer */
 

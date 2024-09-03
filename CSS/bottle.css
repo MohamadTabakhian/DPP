@@ -376,6 +376,9 @@
     font-weight: bold;
 }
 
+.flex-container a p:hover {
+    color: rgb(1, 119, 191);
+}
 
 
   /* Footer */
