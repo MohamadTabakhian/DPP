@@ -57,7 +57,7 @@ nav .nav-bar {
 .nav-bar .nav-links li {
     margin: 0 10px;
     list-style: none;
-    transform: translateX(200px);
+    transform: translateX(250px);
 }
 
 .nav-bar .nav-links li a:hover {
@@ -236,6 +236,18 @@ nav .nav-bar {
 .flex-container a p:hover {
     color: rgb(69, 192, 174);
 }
+
+.flex-container span {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    color: #111;
+    padding: 0px 30px;
+    font-weight: 500;
+}
+
+/* .flex-container  span:hover {
+    color: rgb(69, 192, 174);
+} */
 
 .flex-main {
     display: flex;
@@ -441,8 +453,7 @@ nav .nav-bar {
 }
 
 .product .flex-container img {
-    width: 25%;
-    margin: 0 30px;
+    margin: 0 12px;
 }
 
 .flex-container img:hover {
@@ -451,7 +462,7 @@ nav .nav-bar {
 
 .flex-container p {
     font-family: 'Archivo', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #111;
     padding: 1px 30px;
     font-weight: bold;
