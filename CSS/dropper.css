@@ -330,19 +330,19 @@
 }
 
 .flex-container .flex-item-one {
-    flex: 20%;
+    flex: 15%;
 }
 
 .flex-container .flex-item-two {
-    flex: 20%;
+    flex: 15%;
 }
 
 .flex-container .flex-item-three {
-  flex: 20%;
+  flex: 15%;
 }
 
 .flex-container .flex-item-four {
-  flex: 20%;
+  flex: 15%;
 }
 
 .product .flex-container .flex-item-one img,
@@ -363,7 +363,7 @@
 
 .product .flex-container img {
     width: 25%;
-    margin: 0 30px;
+    margin: 0 12px;
 }
 
 .flex-container img:hover {

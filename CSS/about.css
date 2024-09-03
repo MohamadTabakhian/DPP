@@ -420,11 +420,11 @@ nav .nav-bar {
 .year-midleft p,
 .year-midright p,
 .year-right p {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: 'Archivo', sans-serif;
     padding: 0 30px;
-    transform: translateY(-130px);
+    transform: translateY(-100px);
 }
 
 .year-midleft {
