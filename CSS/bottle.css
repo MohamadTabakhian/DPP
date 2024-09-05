@@ -536,65 +536,33 @@
     /* Main */
 
     /* ==== Image Product ===== */
+    .image-background h1 {
+        font-size: 25px;
+    }
+
+
 
     /* ==== Name Product ==== */
-
-    /* ==== Product ===== */
-    .flex-item-one, .flex-item-two , .flex-item-three , .flex-item-four , .flex-item-five  {
+    .sidebar .product {
         flex: 100%;
+    }
+    /* ==== Product ===== */
+    .product .flex-item-one, .flex-item-two , .flex-item-three , .flex-item-four , .flex-item-five  {
+        flex: 100%;
+        margin: 20px 0;
       }
 
-}
 
-@media (width:810px) {
-    .nav a img {
-        width: 20%;
+    /* Footer */      
+    .item-left , 
+    .item-main , 
+    .item-right{
+        flex: 100%;
     }
 
-     .nav ul {
-        position: fixed;
-        width: 100%;
-        left: 0;
-        height: 100vh;
-        background-color: rgb(1, 119, 191);
-        text-align: center;
-        padding: 0;
-        /* top: 50px; */
-        left: -100%;
-        transition: 2s;
-    }
-
-    nav ul.slide {
-        left: 0;
-        transition: 2s;
-    }
-    
-
-    .nav ul li {
-        display: block;
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .nav ul li a {
-        border: none;
-        color: black;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .hamburger {
-        float: right;
-        padding-right: 20px;
-        padding-top: 40px;
-        cursor: pointer;
-    }
-
-    .hamburger .line {
-        width: 40px;
-        height: 3px;
-        background-color: black;
-        display: block;
-        margin-bottom: 5px;
+    .item-left , .item-main {
+        border-right: none;
+        border-bottom: 2px solid #202225;
     }
 
 }

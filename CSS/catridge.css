@@ -322,7 +322,7 @@ nav .nav-bar {
 }
 
 /* Mobile Menu */
-
+/* 
 .dropdown-mobile {
     position: relative;
     display: none;
@@ -342,13 +342,12 @@ nav .nav-bar {
     align-items: center;
     text-align: center;
     padding: 10px 20px;
-    /* border-radius: 20px; */
     cursor: pointer;
     font-size: 20px;
     font-family: 'Archivo', sans-serif;
-}
+} */
 
-.select:hover {
+/* .select:hover {
     background: #3AA6B9;
 }
 
@@ -366,9 +365,9 @@ nav .nav-bar {
 
 .caret-rotate {
     transform: rotate(180deg);
-}
+} */
 
-.menu {
+/* .menu {
     padding: 0.2em 0.5em;
     background: rgb(1, 119, 191);
     border: none;
@@ -377,7 +376,6 @@ nav .nav-bar {
     top: 2.5em;
     left: 50%;
     width: 100%;
-    /* transform: translateX(-50%); */
     text-align: center;
     opacity: 0;
     display: flex;
@@ -386,17 +384,16 @@ nav .nav-bar {
     display: flex;
     flex-direction: column;
     font-family: 'Archivo', sans-serif;
-}
-
+} */
+/* 
 .menu li {
     padding: 0.7em 0.5em;
     margin: 0.3em 0;
     border-radius: 0.5em;
-    /* cursor: pointer; */
-}
+} */
 
 
-.menu a {
+/* .menu a {
     color: #fff;
     width: 100%;
     padding: 12px 0;
@@ -419,7 +416,7 @@ nav .nav-bar {
     display: flex;
     opacity: 1;
     width: 100%;
-}
+} */
 
 
 /* Product */
@@ -629,63 +626,58 @@ nav .nav-bar {
     /* Main */
 
     /* ==== Image Product ===== */
-    .image-product {
+
+    .image-background h1 {
+        font-size: 25px;
+        padding: 20px 10px;
+    }
+
+    .image-background img {
         width: 100%;
-    }
-
-    .image-product .image-background {
-        width: 100%;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .image-product h1 {
-        font-size: 20px;
-        margin: 0;
-        padding: 100px 20px;
-    }
-    /* ==== Name Product For Mobile  ==== */
-    .dropdown-mobile {
-        display: flex;
-        width: 100%;
-    }
-
-    .menu {
-        transform: translateX(-50%);
-    }
-
-
-    /* ==== Product ===== */
-    .sidebar {
-        display: none;
-    }
-
-    .product {
-        flex: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        text-align: left;
-        justify-content: left;
-        margin: 30px 0;
-        padding: 0;
-    }
-
-    .product .flex-container .flex-item-three img {
-        width: 100%;
-        display: flex;
         height: 100%;
-        transform: translateX(30px);
     }
 
-    .product .flex-container .flex-item-three p {
-        transform: translateX(30px);
-    } 
+    /* ==== Name Product ==== */
+    .sidebar .product {
+        flex: 100%;
+    }
+    /* ==== Product ===== */
+    .product .flex-item-one, .product .flex-item-two , .product .flex-item-three , .flex-item-four , .flex-item-five  {
+        flex: 100%;
+        margin: 10px 0;
+    }
+
+    .flex-item-three img {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* transform: translateX(20px); */
+    }
+
+    .flex-item-three p {
+        display: flex;
+        width: 100%;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        margin-top: 10px;
+        /* transform: translateX(20px); */
+    }
+
+    .flex-item-three span {
+        display: flex;
+        width: 100%;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        /* transform: translateX(20px); */
+    }
 
 
-    /* Footer */
-
+    /* Footer */      
     .item-left , 
     .item-main , 
     .item-right{
