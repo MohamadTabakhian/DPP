@@ -186,19 +186,19 @@
     width: 100%;
 }
 
-.image-background img {
+/* .image-background img {
     width: 100%;
     height: 1000px;
-}
+} */
 
-/* .image-product .image-background {
-    background-image: url(/Image/Product/Container.jpeg);
+.image-product .image-background {
+    background-image: url(/Image/Product/Container-caps.jpeg);
     width: 100%;
     height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-} */
+}
 
 .image-background h1 {
     display: flex;

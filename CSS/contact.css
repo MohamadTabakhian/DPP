@@ -347,7 +347,7 @@ nav {
   margin-right: 0px;
   margin-bottom: 60px;
   margin-left: 0px;
-  background-color: rgb(12, 147, 231);
+  background-color: #767676;
   cursor: pointer;
   font-weight: bold;
 }
@@ -355,7 +355,7 @@ nav {
 .arch_contact_us_duplicate .form-wrapper {
   border-bottom-width: 4px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(1, 119, 191);
+  border-bottom-color: #767676;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 60px;
@@ -369,7 +369,7 @@ nav {
 }
 
 .arch_contact_us_duplicate .input-element {
-  background-color: rgb(1, 119, 191);
+  background-color: #767676;
   color: #fff;
 }
 

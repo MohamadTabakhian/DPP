@@ -41,68 +41,65 @@
     
   <!-- Header -->
 
-  <nav>
-    <div class="nav-bar">
-        <i class="bx bx-menu sidebarOpen"></i>
+
+  <div class="logo-header">
+    <div class="logo-dpp">
         <img src="./Logo/DPP-Logo.png" alt="">
-
-        <div class="menu-header">
-            <div class="logo-toggle">
-                <img src="./Logo/DPP-Logo.png" alt="">
-                <i class="bx bx-x siderbarClose"></i>
-            </div>
-
-
-            <ul class="nav-links">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./product.html">Products</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="darklight-searchBox">
-            <div class="searchBox">
-                <div class="searchToggle">
-                    <i class="bx bx-x cancel"></i>
-                    <i class="bx bx-search search"></i>
-                </div>
-
-                <div class="search-field">
-                    <input type="text" placeholder="Search..." id="searchbar" onkeyup="search_animal()" name="search">
-                    <i class="bx bx-search"></i>
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
 
-</nav>
+     <nav>
+        <div class="nav-bar">
+            <i class="bx bx-menu sidebarOpen"></i>
+            <!-- <img src="./Logo/DPP-Logo.png" alt=""> -->
+
+            <div class="menu-header">
+                <div class="logo-toggle">
+                    <img src="./Logo/DPP-Logo.png" alt="">
+                    <i class="bx bx-x siderbarClose"></i>
+                </div>
+
+
+                <ul class="nav-links">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT US</a></li>
+                    <li><a href="./product.html">PRODUCTS</a></li>
+                    <li><a href="#">CERTIFICATE</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="darklight-searchBox">
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class="bx bx-x cancel"></i>
+                        <i class="bx bx-search search"></i>
+                    </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav> 
+
     <!-- Main -->
 
     <!-- ====== Image introduce ====== -->
      <section class="image-product">
         <div class="image-background">
-            <h1>Products</h1>
+            <!-- <button onclick="topFunction()" id="myBtn" title="Go to down"><a href="#flex-main"><i class='bx bxs-down-arrow-circle'></i></a></button> -->
+            <!-- <h1>Products</h1> -->
         </div>
      </section>
 
     <!-- ====== Name Products ====== -->
-     <!-- <section class="name-product">
-        <div class="row-name">
-            <a href="./product.html" >All</a>
-            <a href="./bottle.html" >Bottles</a>
-            <a href="./caps.html" >Caps & Closures</a>
-            <a href="./container.html" >Containers</a>
-            <a href="./dropper.html" >Droppers</a>
-            <a href="./applicator.html" >Applicators & Syringes</a>
-            <a href="./measure.html" >Measures & Spoons</a>
-            <a href="./Eﬀervescent.html" >Eﬀervescent Tablet Containers</a>
-            <a href="./catridge.html" >Catridges</a>
-        </div>
-     </section> -->
+
 
      <!-- ====== Products ======= -->
 
-     <div class="flex-container">
+     <!-- <div class="flex-container">
         <div class="flex-item-one">
             <a href="./bottle.html"><img src="./Image/Group/Bottles.jpg" alt=""></a>
             <a href="./bottle.html"><h3>Bottles</h3></a>
@@ -138,74 +135,180 @@
             <a href="./catridge.html"><img src="./Image/Group/Catridge.jpeg" alt=""></a>
             <a href="./catridge.html"><h3>Catridges</h3></a>
         </div>
+      </div> -->
+
+      <div id="flex-main">
+
       </div>
 
 
+          <!-- ====== Name Products ====== -->
+
+    <section class="flex-main">
+        <div class="sidebar">
+            <a href="./product.html" style="font-weight: bolder; font-size: 18px; color: rgb(1, 119, 191);">ALL PRODUCTS</a>
+            <button class="dropdown-btn" style="color: rgb(1, 119, 191);">
+              <i class="fa fa-plus" style="font-size: 13px;"></i><a href="./bottle.html" class="col-1">Bottles</a>
+            </button>
+            <div class="dropdown-container">
+              <i class="fa fa-plus" style="font-size: 13px;"></i><a href="./dropper-bottle.html" style="color: rgb(1, 119, 191);">Dropper Bottles</a>
+              <a href="./pe-bottle.html" style="color: rgb(1, 119, 191);">PE Bottles</a>
+              <a href="./pet-bottle.html" style="color: rgb(1, 119, 191);">PET Bottles</a>
+              <a href="./specialized-bottle.html" style="color: rgb(1, 119, 191);">Specialized Bottles</a>
+              <a href="./sp-color-bottle.html" style="color: rgb(1, 119, 191);">Specialized Bottles</a>
+            </div>
+            <button class="dropdown-btn" style="color: rgb(105, 189, 68);">
+                <i class="fa fa-caret-right" style="font-size: 18px;"></i><a href="./caps.html" class="col-2">Caps</a>
+              </button>
+              <div class="dropdown-container">
+                <a href="./container-cap.html" style="color: rgb(105, 189, 68);">PE Container Caps</a>
+                <a href="./dropper-cap.html" style="color: rgb(105, 189, 68);">Dropper Caps</a>
+                <a href="./pe-cap.html" style="color: rgb(105, 189, 68);">PE Bottles Caps</a>
+                <a href="./bottle-cap.html" style="color: rgb(105, 189, 68);">Bottles Caps</a>
+                <a href="./specialized-caps.html" style="color: rgb(105, 189, 68);">Specialized Caps</a>
+                <a href="./sp-color-cap.html" style="color: rgb(105, 189, 68);">Specialized Caps</a>
+              </div>
+              <button class="dropdown-btn" style="color: rgb(100, 64, 152);">
+                <i class="fa fa-caret-right" style="font-size: 18px;"></i><a href="./container.html" class="col-3">Containers</a>
+              </button>
+              <div class="dropdown-container">
+                <a href=""></a>
+
+              </div>
+              <button class="dropdown-btn" style="color: rgb(239, 63, 74);">
+                <i class="fa fa-caret-right" style="font-size: 18px;"></i><a href="./dropper.html" class="col-4">Droppers</a>
+              </button>
+              <div class="dropdown-container">
+                <a href="./drop1-info.html">Short Dropper</a>
+                <a href="./drop2-info.html">Long Dropper</a>
+                <a href="./drop3-info.html">Dropper</a>
+                <a href="./drop4-info.html">Dropper</a>
+                <a href="./drop5-info.html">Dropper</a>
+                <a href="./drop6-info.html">Dropper With Plastic Stick</a>
+                <a href="./drop7-info.html">64mm GD1 With Plastic Pipette</a>
+                <a href="./drop8-info.html">57mm GD With Plastic Pipette</a>
+                <a href="./drop9-info.html">64mm GD1 With Plastic Pipette</a>
+                <a href="./drop1o-info.html">77mm GD With Plastic Pipette</a>
+            </div>
+            <button class="dropdown-btn" style="color: rgb(255, 194, 15);">
+                <i class="fa fa-caret-right" style="font-size: 18px;"></i><a href="./applicator.html" class="col-5">Applicators & Syringes</a>
+              </button>
+              <div class="dropdown-container">
+                <a href=""></a>
+
+              </div>
+              <button class="dropdown-btn" style="color: rgb(243, 101, 35);">
+                <i class="fa fa-caret-right" style="font-size: 18px;"></i><a href="./measure.html" class="col-6">Measures & Spoons</a>
+              </button>
+              <div class="dropdown-container">
+                <a href=""></a>
+
+              </div>
+              <button class="dropdown-btn" style="color: rgb(163, 36, 143);">
+                <i class="fa fa-caret-right" style="font-size: 18px;"></i><a href="./Eﬀervescent.html" class="col-7">Eﬀervescent Cont.</a>
+              </button>
+              <div class="dropdown-container">
+                <a href=""></a>
+
+              </div>
+              <button class="dropdown-btn" style="color: rgb(69, 192, 174);">
+                <i class="fa fa-caret-right" style="font-size: 18px;"></i><a href="./catridge.html" class="col-8">Catridges</a>
+              </button>
+              <div class="dropdown-container">
+                <a href=""></a>
+
+              </div>
+        </div>
 
 
+
+
+     <!-- ====== Products ======= -->
+        <div class="product">   
+            <!-- 1 -->
+            <div class="flex-container">
+                <div class="flex-item-one">
+                    <a href="./bottle.html"><img src="./Image/bottels.jpeg" alt=""></a>
+                    <a href="./bottle.html"><p>Bottles</p></a>
+                </div>
+                <div class="flex-item-one">
+                    <a href="./caps.html"><img src="./Image/caps.jpeg" alt=""></a>
+                    <a href="./caps.html"><p>Caps & Closures</p></a>
+                </div>
+                <div class="flex-item-one">
+                    <a href="./container.html"><img src="./Image/container.jpeg" alt=""></a>
+                    <a href="./container.html"><p>Containers</p></a>
+                </div>
+                <div class="flex-item-one">
+                    <a href="./dropper.html"><img src="./Image/dropper.jpeg" alt=""></a>
+                    <a href="./dropper.html"><p>Droppers</p></a>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="flex-container">
+                <div class="flex-item-one">
+                    <a href="./applicator.html"><img src="./Image/applicator.jpeg" alt=""></a>
+                    <a href="./applicator.html"><p>Applicators & Syringes</p></a>
+                </div>
+                <div class="flex-item-one">
+                    <a href="./measure.html"><img src="./Image/measure.jpeg" alt=""></a>
+                    <a href="./measure.html"><p>Measures & Spoons</p></a>
+                </div>
+                <div class="flex-item-one">
+                    <a href="./Eﬀervescent.html"><img src="./Image/Group/Effer.jpeg" alt=""></a>
+                    <a href="./Eﬀervescent.html"><p>Eﬀervescent Container</p></a>
+                </div>
+                <div class="flex-item-one">
+                    <a href="./catridge.html"><img src="./Image/Group/Catridge.jpeg" alt=""></a>
+                    <a href="./catridge.html"><p>Catridges</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Scroll Top -->
+    <button onclick="topFunction()" id="myBtns" title="Go to top" class="to-top"><i class='bx bxs-down-arrow-circle' style="rotate: 180deg;"></i></button>
 
     <!-- Footer -->
 <!-- Footer -->
-<footer class="footer" style="margin-top: 100px;">
-    <div class="footer-container">
-        <div class="item-left">
-            <span>
-               <h4> Office : </h4> 8th apt, 3rd floor, No. 28, 3rd St. Vozara AVE. Tehran, Iran 
-            </span>
-            <div class="icon-footer">
-                <img src="./Logo/telephone.png" alt="">
-                <a href="tel:+982188704009 ">+982188704009 </a>
-            </div>
-            <div class="icon-footer">
-                <img src="./Logo/telephone.png" alt="">
-                <a href="tel:+982188704009 ">+982188704009 </a>
-            </div>
-        </div>
-        <div class="item-main">
-            <span>
-               <h4> Factory : </h4> Pars alley, Khorde Pa St. Boumehen Blv. Tehran-pardis highway 
-            </span>
-            <div class="icon-footer">
-                <img src="./Logo/mobile-phone.png" alt="">
-                <a href="tel:+982176223281"> +982176223281</a>
-            </div>
-            <div class="icon-footer">
-                <img src="./Logo/gmail.png" alt="">
-                <a href="mail to:  info@dpp.ir"> info@dpp.ir</a>
-            </div>
-        </div>
-        <div class="item-right">
-            <!-- <div class="social-media">
-                <a href="" class="fa fa-facebook"></a>
-                <a href="" class="fa fa-twitter"></a>
-                <a href="" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-google"></a>
-            </div> -->
-            <span>
-                <h4> Factory in Greece: </h4> Gr. Lampraki 16, Glyfada, Athens
-             </span>
-             <div class="icon-footer">
-                <img src="./Logo/telephone.png" alt="">
-                 <a href="tel to : +30 211 411 7333">+30 211 411 7333</a>
-             </div>
-             <div class="icon-footer">
-                 <img src="./Logo/gmail.png" alt="">
-                 <a href="mail to : info@naz.gr">info@naz.gr</a>
-             </div>
-        </div>
-    </div>
-    <!-- Reserved -->
-     <div class="reserved">
-            <div class="social-media">
-                <a href="" class="fa fa-twitter"></a>
-                <a href="" class="fa fa-instagram"></a>
-            </div>
+
+<footer class="footer">
+  <div class="container">
+   <div class="row">
+     <div class="footer-col">
+       <h4>Headquarter In Iran</h4>
+        <p>Office : 8th apt, 3rd floor, No. 28, 3rd St. Vozara AVE. Tehran </p>
+        <i class='bx bx-phone'></i><a href="tel to :+982188704009  ">+982-88704009</a>
+        <br>
+        <i class='bx bx-phone'></i><a href="tel to :+982188704009   ">+9821-88704009 </a>
      </div>
+     <div class="footer-col" id="#transform">
+       <h4>Headquarter In Greece</h4>
+       <p>Office : Dimarchou Aggelou Metaxa 22 , Glyfada , Athens</p>
+       <i class='bx bx-phone'></i><a href="tel to :+302108946993  ">+3021-08946993</a>
+     </div>
+     <div class="footer-col">
+      <h4>Available</h4>
+      <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Product</a></li>
+       <li><a href="#">Certificate</a></li>
+     </ul>
+     </div>
+   </div>
+  </div>
 </footer>
+<!-- <div class="designer">
+  <span> Copyright 2024 Squarish LLC, All Right Reserved </span>
+</div> -->
 
 
     <!-- Javascript -->
      <script src="./Javascript/search-button.js"></script>
      <script src="./Javascript/search.js"></script>
+     <script src="./Javascript/scrolldown.js"></script>
+     <script src="./Javascript/dropdown.js"></script>
+     <script src="./Javascript/scrolltop.js"></script>
 </body>
 </html>
