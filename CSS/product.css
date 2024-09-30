@@ -199,27 +199,6 @@ body {
       cursor: pointer;
   }
 
-/* .result-box {
-  width: 98%;
-  height: 30px;
-  position: absolute;
-  top: 48px;
-  border-radius: 5px;
-}
-
-.result-box ul a {
-  display: flex;
-  align-items: center;
-  padding: 15px 5px;
-  color: #fafafa;
-  background-color: rgb(1, 119, 191);
-  margin: 1px 0;
-  font-family: 'Archivo',sans-serif;
-}
-
-.result-box ul a:hover {
-  color: #111;
-} */
 
 
 /* Image-Products */
@@ -302,7 +281,7 @@ body {
   } */
 
 .sidebar a, .dropdown-btn {
-  padding: 8px 15px;
+  padding: 5px 15px;
   text-decoration: none;
   font-size: 15px;
   color: #000;
@@ -335,7 +314,7 @@ body {
 .dropdown-btn .col-2 {
   font-size: 14px;
   font-family: "Archivo", serif;
-  padding: 1px 25px;
+  padding: 1px 0px;
 }
 
 .dropdown-btn .col-2:hover {
@@ -346,7 +325,7 @@ body {
 .dropdown-btn .col-3 {
   font-size: 14px;
   font-family: "Archivo", serif;
-  padding: 1px 25px;
+  padding: 1px 0px;
 }
 
 .dropdown-btn .col-3:hover {
@@ -356,7 +335,7 @@ body {
 .dropdown-btn .col-4 {
   font-size: 14px;
   font-family: "Archivo", serif;
-  padding: 1px 25px;
+  padding: 1px 0px;
 }
 
 .dropdown-btn .col-4:hover {
@@ -366,7 +345,7 @@ body {
 .dropdown-btn .col-5 {
   font-size: 14px;
   font-family: "Archivo", serif;
-  padding: 1px 25px;
+  padding: 1px 0px;
 }
 
 .dropdown-btn .col-5:hover {
@@ -376,7 +355,7 @@ body {
 .dropdown-btn .col-6 {
   font-size: 14px;
   font-family: "Archivo", serif;
-  padding: 1px 25px;
+  padding: 1px 0px;
 }
 
 .dropdown-btn .col-6:hover {
@@ -386,7 +365,7 @@ body {
 .dropdown-btn .col-7 {
   font-size: 14px;
   font-family: "Archivo", serif;
-  padding: 1px 25px;
+  padding: 1px 0px;
 }
 
 .dropdown-btn .col-7:hover {
@@ -396,7 +375,7 @@ body {
 .dropdown-btn .col-8 {
   font-size: 14px;
   font-family: "Archivo", serif;
-  padding: 1px 25px;
+  padding: 1px 0px;
 }
 
 .dropdown-btn .col-8:hover {
@@ -414,8 +393,8 @@ body {
   background: #e6dfdf;
 }
 
-.active .fa-caret-right {
-  transform: rotate(90deg);
+.active .fa-plus {
+  transform: rotate(45deg);
   font-size: 15px;
 }
 
@@ -434,7 +413,7 @@ body {
 
 
 /* = Optional: Style the caret down icon = */
-.fa-caret-right {
+.fa-plus {
   float: left;
   margin-right: 10px;
 }
@@ -442,7 +421,7 @@ body {
 .fa-plus {
   float: left;
   margin-right: 10px; 
-  font-size: 11px;
+  font-size: 14px;
 }
 
 /* Product */
@@ -706,12 +685,8 @@ flex: 15%;
 }
 
   /* Footer */
-  .footer {
-    margin-top: 100px;
-  }
-
   .container{
-    max-width: 1100px;
+    max-width: 1170px;
     margin:auto;
   }
   .row{
@@ -723,31 +698,15 @@ flex: 15%;
   }
   .footer{
     background-color: #24262b;
-    padding: 40px 0;
+      padding: 70px 0;
   }
   .footer-col{
-     width: 26%;
+     width: 25%;
      padding: 0 15px;
-     margin: 0 35px;
   }
 
-  .footer-col p {
-    color: #fafafa;
-    padding-bottom: 20px;
-  }
-
-  .footer-col i {
-    color: #fafafa;
-    padding-right: 20px;
-    padding-bottom: 10px;
-  }
-
-  .footer-col a {
-    color: #fafafa;
-  }
-
-  .footer-col a:hover {
-    color: rgb(0, 84, 166);
+  .footer-col img {
+    width: 50%;
   }
 
   .footer-col h4{
@@ -758,7 +717,7 @@ flex: 15%;
     font-weight: 500;
     position: relative;
   }
-  
+
   .footer-col h4::before{
     content: '';
     position: absolute;
@@ -769,11 +728,25 @@ flex: 15%;
     box-sizing: border-box;
     width: 50px;
   }
-  
-  .footer-col ul li:not(:last-child){
+
+  .footer-col p {
+    color: #bbbbbb;
+    font-size: 13px;
     margin-bottom: 10px;
   }
 
+  .footer-col i {
+    color: #bbbbbb;
+    margin-right: 10px;
+  }
+
+  .footer-col a {
+    color: #bbbbbb;
+  }
+
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
   .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
@@ -784,12 +757,10 @@ flex: 15%;
     display: block;
     transition: all 0.3s ease;
   }
-
   .footer-col ul li a:hover{
     color: #ffffff;
     padding-left: 8px;
   }
-
   .footer-col .social-links a{
     display: inline-block;
     height: 40px;
@@ -802,11 +773,11 @@ flex: 15%;
     color: #ffffff;
     transition: all 0.5s ease;
   }
-
   .footer-col .social-links a:hover{
     color: #24262b;
     background-color: #ffffff;
   }
+  
   
 
 /* MediaQuery */

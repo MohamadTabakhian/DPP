@@ -8,20 +8,42 @@
     list-style-type: none;
 }
 
+body {
+    font-family: "Archivo", serif;
+}
+
     /* Header */
+    .logo-header {
+        width: 100%;
+    }
+  
+    .logo-dpp {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+  
+    .logo-dpp img {
+        width: 20%;
+        padding: 20px 20px;
+    }
+  
+  
     nav {
         /* position: fixed; */
         top: 0;
         left: 0;
-        height: 150px;
+        height: 60px;
         width: 100%;
         font-family: 'Archivo', sans-serif;
         z-index: 100;
         max-width: 100%;
+        background-color: rgb(0, 84, 166);
     }
     
     nav .nav-bar .sidebarOpen {
-        color: #111;
+        color: #fff;
         font-size: 25px;
         padding: 5px;
         cursor: pointer;
@@ -39,10 +61,11 @@
         width: 100%;
         /* background-color: rgb(1, 119, 191); */
         margin: 0 auto;
-        padding: 0 30px;
+        padding: 0 0px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+  
     }
     
     .menu-header .logo-toggle {
@@ -57,22 +80,22 @@
     .nav-bar .nav-links li {
         margin: 0 10px;
         list-style: none;
-        transform: translateX(250px);
+        /* transform: translateX(20px); */
     }
     
     .nav-bar .nav-links li a:hover {
-        color: rgb(1, 119, 191);
-        border-bottom: 1px solid rgb(1, 119, 191);
+        color: #111;
+        /* border-bottom: 1px solid #111; */
     }
     
     .nav-links li a{
         position: relative;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: bold;
         text-align: none;
         font-family: 'Archivo', sans-serif;
-        color: #111;
-        padding: 10px;
+        color: #fafafa;
+        margin: 0 10px;
     }
     
     .nav-bar .darklight-searchBox {
@@ -91,9 +114,13 @@
     
     .searchToggle i {
         position: absolute;
-        color: #111;
+        color: #fff;
         font-size: 22px;
         cursor: pointer;
+    }
+  
+    .searchToggle i:hover {
+        color: #111;
     }
     
     .searchToggle i.cancel {
@@ -145,7 +172,7 @@
         top: -2px;
         height: 12px;
         width: 12px;
-        background-color: rgb(1, 119, 191);
+        background-color: rgb(0, 84, 166);
         transform: rotate(-45deg);
         z-index: -1;
     }
@@ -156,7 +183,7 @@
         width: 100%;
         padding: 0 45px 0 15px;
         outline: none;
-        border: 1px solid rgb(1, 119, 191);
+        border: 1px solid rgb(0, 84, 166);
         border-radius: 4px;
         font-size: 14px;
         font-weight: 400;
@@ -165,12 +192,13 @@
     
     .search-field i {
         position: absolute;
-        color: #111;
+        color: #FFF;
         right: 15px;
         font-size: 22px;
         cursor: pointer;
     }
-    
+  
+  
 
 /* Sidebar */
 .flex-container a p:hover {
@@ -188,18 +216,15 @@
     width: 100%;
 }
 
-.image-background img {
-    width: 100%;
-}
 
-/* .image-product .image-background {
-    background-image: url(/Image/Product/Dropper-Bottle.jpeg);
+.image-product .image-background {
+    background-image: url(/Image/edit/Dopper-Battle.jpeg);
     width: 100%;
-    height: 690px;
+    height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-} */
+}
 
 .image-background h1 {
     display: flex;
@@ -241,16 +266,17 @@
 .flex-main {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 0px;
     width: 100%;
-}
-
-.sidebar {
+  }
+  
+  .sidebar {
     flex: 10%;
     display: flex;
     flex-direction: column;
-}
-
+    margin-top: 100px;
+  }
+  
     /* .sidebar a {
         padding: 20px 20px;
         color: #000;
@@ -258,9 +284,9 @@
         font-size: 18px;
         border-right: 2px solid rgb(69, 192, 174);
     } */
-     
-.sidebar a, .dropdown-btn {
-    padding: 8px 20px;
+  
+  .sidebar a, .dropdown-btn {
+    padding: 5px 15px;
     text-decoration: none;
     font-size: 15px;
     color: #000;
@@ -273,47 +299,151 @@
     outline: none;
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
-}
-
-.dropdown-container a {
-    background: #ece9e9;
-    transition: all ease-out 0.3s;
-}
-
-
-/* On mouse-over */
-.sidebar a:hover, .dropdown-btn:hover {
-    color: rgb(1, 119, 191);
-}
-
-/* Add an active class to the active dropdown button */
-.active {
-    background: #2324;
   }
-
-.active .fa-caret-right {
-    transform: rotate(90deg);
+  
+  .dropdown-container a {
+    background: #ece9e9;
+    transition: all ease-out 0.4s;
+  }
+   
+  .dropdown-btn .col-1 {
+    font-size: 14px;
+    font-family: "Archivo", serif;
+    padding: 1px 0px;
+  }
+  
+  .dropdown-btn .col-1:hover {
+    color: rgb(1, 119, 191);
+  }
+  
+  .dropdown-btn .col-2 {
+    font-size: 14px;
+    font-family: "Archivo", serif;
+    padding: 1px 0px;
+  }
+  
+  .dropdown-btn .col-2:hover {
+    color: rgb(105, 189, 68);;
+  }
+  
+  
+  .dropdown-btn .col-3 {
+    font-size: 14px;
+    font-family: "Archivo", serif;
+    padding: 1px 0px;
+  }
+  
+  .dropdown-btn .col-3:hover {
+    color: rgb(100, 64, 152);
+  }
+  
+  .dropdown-btn .col-4 {
+    font-size: 14px;
+    font-family: "Archivo", serif;
+    padding: 1px 0px;
+  }
+  
+  .dropdown-btn .col-4:hover {
+    color: rgb(239, 63, 74);
+  }
+  
+  .dropdown-btn .col-5 {
+    font-size: 14px;
+    font-family: "Archivo", serif;
+    padding: 1px 0px;
+  }
+  
+  .dropdown-btn .col-5:hover {
+    color: rgb(255, 194, 15);
+  }
+  
+  .dropdown-btn .col-6 {
+    font-size: 14px;
+    font-family: "Archivo", serif;
+    padding: 1px 0px;
+  }
+  
+  .dropdown-btn .col-6:hover {
+    color: rgb(243, 101, 35);
+  }
+  
+  .dropdown-btn .col-7 {
+    font-size: 14px;
+    font-family: "Archivo", serif;
+    padding: 1px 0px;
+  }
+  
+  .dropdown-btn .col-7:hover {
+    color: rgb(163, 36, 143);
+  }
+  
+  .dropdown-btn .col-8 {
+    font-size: 14px;
+    font-family: "Archivo", serif;
+    padding: 1px 0px;
+  }
+  
+  .dropdown-btn .col-8:hover {
+    color: rgb(69, 192, 174);
+  }
+  
+  
+  /* On mouse-over */
+  /* .sidebar a:hover, .dropdown-btn:hover {
+    color: rgb(1, 119, 191);
+  } */
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background: #e6dfdf;
+  }
+  
+  .active .fa-plus {
+    transform: rotate(45deg);
     font-size: 15px;
-}
-
-
-/* = Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content = */
-.dropdown-container {
+  }
+  
+  
+  /* = Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content = */
+  .dropdown-container {
     display: none;
     background-color: transparent;
-    padding-left: 8px;
-}
-
-.dropdown-container a {
+    padding-left: 0px;
+  }
+  
+  .dropdown-container a {
     margin: 0px 0;
-}
+    font-size: 13px;
+  }
+  
+  
+  /* = Optional: Style the caret down icon = */
+  .fa-plus {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .fa-plus {
+    float: left;
+    margin-right: 10px; 
+    font-size: 14px;
+  }
 
+  .product h1 {
+    font-size: 20px;
+    padding: 10px 10px;
+    color: rgb(1, 119, 191);
+  }
 
-/* = Optional: Style the caret down icon = */
-.fa-caret-right {
-    float: center;
-    margin-left: 10px;
-}
+  .product h4 {
+    font-size: 15px;
+    padding: 0 10px;
+    width: 90%;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+    font-weight: 600;
+  }
   
 
 
@@ -391,95 +521,99 @@
 
 
   /* Footer */
-
-.footer {
-    width: 100%;
-    background-color: #3d434b;
-    color: #fff;
-}
-
-.footer h4 {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-}
-
-.footer-container {
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
     display: flex;
     flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+
+  .footer-col img {
+    width: 50%;
+  }
+
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: rgb(0, 84, 166);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+
+  .footer-col p {
+    color: #bbbbbb;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .footer-col i {
+    color: #bbbbbb;
+    margin-right: 10px;
+  }
+
+  .footer-col a {
+    color: #bbbbbb;
+  }
+
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
     text-align: center;
-}
-
-.item-left , 
-.item-main , 
-.item-right{
-    flex: 33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px 20px;
-}
-
-.item-left , 
-.item-main , 
-.item-right span {
-    font-family: 'Poppins', sans-serif;
-    color: #fafafa;
-    font-size: 15px;
-}
-
-.item-left {
-    border-right: 2px solid #202225;
-}
-
-.item-main {
-    border-right: 2px solid #202225;
-}
-
-.icon-footer {
-    margin-top: 30px;
-}
-
-
-.icon-footer a {
-    color: #fff;
-    margin-left: 10px;
-}
-
-.icon-footer a:hover {
-    color: #53a4eb;
-}
-
-.social-media {
-    font-size: 30px;
-}
-
-.social-media a {
-    margin: 0 10px;
-    color: #fafafa;
-}
-
-.social-media a:hover {
-    color: #53a4eb;
-    transform: translateY(-5px);
-}
-
-.reserved {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: #202225;
-    padding: 20px 0;
-}
-
-.reserved span {
-    font-size: 12px;
-}
-
-.final {
-    background-color: #202225;
-}
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
 
 
 
@@ -603,15 +737,8 @@
 
 
     /* Footer */      
-    .item-left , 
-    .item-main , 
-    .item-right{
-        flex: 100%;
-    }
-
-    .item-left , .item-main {
-        border-right: none;
-        border-bottom: 2px solid #202225;
+    .footer-col{
+        width: 100%;
     }
 
 }
